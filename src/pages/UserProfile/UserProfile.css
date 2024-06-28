@@ -1,0 +1,77 @@
+.user-profile {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4e43b1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  .user-avatar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .user-info {
+    background-color: #9999de;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+  }
+  
+  .user-info h1 span,
+  .user-info h2 span {
+    color: #6a5acd; 
+  }
+  
+  .edit-profile {
+    background-color: #9999de; 
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .avatar-upload-label {
+    background-color: #add8e6; 
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .input-field {
+    border: 1px solid #6a5acd; 
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .save-button {
+    background-color: #6a5acd; 
+    color: white;
+    padding: 10px 20px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #483d8b; 
+  }

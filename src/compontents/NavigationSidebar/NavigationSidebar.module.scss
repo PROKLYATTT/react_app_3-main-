@@ -1,0 +1,18 @@
+.sidebar {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .sidebar_menu {
+    background: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+
+
+    :global(.ant-menu-item-selected) {
+      background-color: #fff;
+      color: #333;
+    }
+  }
+}

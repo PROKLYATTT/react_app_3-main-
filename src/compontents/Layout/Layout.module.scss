@@ -1,0 +1,31 @@
+.layout_container {
+  background: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+
+}
+
+.child_container {
+  /* height: 55rem; */
+  /* overflow-y: scroll; */
+  margin: 0 auto;
+  width: 64em;
+  margin-top: 50px;
+}
+.profile-button {
+  margin: 10px; 
+  background-color: #be18ff; 
+  border-color: #1890ff; 
+  &:hover,
+  &:focus {
+    background-color: #40a9ff; 
+    border-color: #0e5f9d; 
+  }
+  .anticon {
+    margin-right: 8px; 
+  }
+}
+
